@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UndineEditor", "UndineEditor\UndineEditor.csproj", "{DEFF8D6C-A97C-45FC-B052-E04E3C6681EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UndineEditor", "UndineEditor\UndineEditor.csproj", "{DEFF8D6C-A97C-45FC-B052-E04E3C6681EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UndineEditor.WindowsForms", "UndineEditor.WindowsForms\UndineEditor.WindowsForms.csproj", "{4E220AE8-F665-402A-95C5-922062E9814B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UndineEditor.WindowsForms", "UndineEditor.WindowsForms\UndineEditor.WindowsForms.csproj", "{4E220AE8-F665-402A-95C5-922062E9814B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UndineEditor.Wpf", "UndineEditor.Wpf\UndineEditor.Wpf.csproj", "{C09A0913-39CF-4D0F-9DC6-638F5256F8AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UndineEditor.Wpf", "UndineEditor.Wpf\UndineEditor.Wpf.csproj", "{C09A0913-39CF-4D0F-9DC6-638F5256F8AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UndineEditor.Avalonia", "UndineEditor.Avalonia\UndineEditor.Avalonia.csproj", "{65BC32EB-1C83-471E-8B2F-42E8D764A8F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{C09A0913-39CF-4D0F-9DC6-638F5256F8AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C09A0913-39CF-4D0F-9DC6-638F5256F8AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C09A0913-39CF-4D0F-9DC6-638F5256F8AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65BC32EB-1C83-471E-8B2F-42E8D764A8F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65BC32EB-1C83-471E-8B2F-42E8D764A8F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65BC32EB-1C83-471E-8B2F-42E8D764A8F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65BC32EB-1C83-471E-8B2F-42E8D764A8F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
