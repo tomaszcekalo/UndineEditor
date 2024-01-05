@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UndineEditor.WindowsForms",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UndineEditor.Wpf", "UndineEditor.Wpf\UndineEditor.Wpf.csproj", "{C09A0913-39CF-4D0F-9DC6-638F5256F8AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UndineEditor.Avalonia", "UndineEditor.Avalonia\UndineEditor.Avalonia.csproj", "{65BC32EB-1C83-471E-8B2F-42E8D764A8F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UndineEditor.Avalonia", "UndineEditor.Avalonia\UndineEditor.Avalonia.csproj", "{65BC32EB-1C83-471E-8B2F-42E8D764A8F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleGame", "SampleGame\SampleGame.csproj", "{CDD44529-F1C0-4D34-8173-112AA4563DE9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{65BC32EB-1C83-471E-8B2F-42E8D764A8F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65BC32EB-1C83-471E-8B2F-42E8D764A8F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65BC32EB-1C83-471E-8B2F-42E8D764A8F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD44529-F1C0-4D34-8173-112AA4563DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD44529-F1C0-4D34-8173-112AA4563DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD44529-F1C0-4D34-8173-112AA4563DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD44529-F1C0-4D34-8173-112AA4563DE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
